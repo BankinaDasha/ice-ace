@@ -1,0 +1,1202 @@
+/*шрифты*/
+
+@font-face {
+    font-family: "PT Sans";
+    src: url(../font/PT_Sans-Web-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url(../font/FUTURAPTDEMI.otf)  format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Futura";
+    src: url(../font/FUTURAPTHEAVY.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url(../font/FUTURAPTMEDIUM.otf) format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Futura";
+    src: url(../font/FUTURAPTBOOK.otf) format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
+
+
+/*общие стили */
+
+* {
+    box-sizing: border-box;
+}
+
+
+p {
+    font-family: "PT Sans";
+    font-weight:400;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    font-family: futura, sans-serif;
+    font-weight: medium;
+    vertical-align: middle;
+    margin: 0;
+}
+
+body {
+    min-width: 1170px;
+    margin: 0;
+}
+
+
+nav {
+    font-family: futura, sans-serif;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+form {
+    text-align: left;
+    vertical-align: top;
+    width: 100%;
+}
+
+input,button,select,textarea {
+    outline: none;
+}
+
+input {
+    height: 45px;
+}
+
+label {
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+.container {
+    width:  1170px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: futura, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: 40px;
+
+
+}
+
+
+.button {
+    
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+
+    text-transform: uppercase;
+    padding: 12px 18px;
+    font-family: futura, sans-serif;
+    font-weight: 700;
+}
+
+.button-one {
+    border: 2px solid white;
+    color: #74e196;
+}
+
+.button:hover {
+    background: #74e196;
+    /* Цвет фона под ссылкой */
+    color: #fff;
+    /* Цвет ссылки */
+}
+
+.button-two {
+    margin-top: 45px;
+    border: 2px solid black;
+    color: #74e196;
+}
+
+.title main {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/*промо блок */
+
+.promo {
+    padding-top: 100px;
+    padding-bottom: 350px;
+    background-image: url(../img/promo.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    color: #fff;
+}
+
+.promo h1 {
+    font-size: 50px;
+    text-align: left;
+}
+
+.promo span {
+    display: block;
+    font-size: 38px;
+    margin-top: 20px;
+}
+
+
+/*header*/
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+    height: 55px;
+    margin-top: 38px;
+}
+
+.phone {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 42px;
+    padding-left: 40px;
+    width: 21%;
+
+    font-family: futura, sans-serif;
+    font-weight: 600;
+    
+    font-size: 22px;
+    
+}
+
+.main-nav {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin-top: 45px;
+}
+
+.menu-item  {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 45px;
+     
+}
+
+.menu-item a:hover {
+    border-bottom: 3px solid #6de793;
+    padding-bottom: 5px;
+   
+
+}
+
+.buttom-feader {
+    vertical-align: middle;
+    margin-top: 45px;
+
+    background-color: white;
+    color: #74e196;
+    border: 2px solid black;
+   
+    
+}
+
+.menu-item.active a {
+    border-bottom: 3px solid #6de793;
+    padding-bottom: 5px;
+   
+}
+
+
+/*main*/
+
+
+/*курсы*/
+
+.courses {
+    font-size: 0px;
+}
+
+.course-item {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.horizontal {
+    display: inline-block;
+    vertical-align: top;
+    width: 66%;
+}
+
+.course-vertical {
+    width: 33%;
+}
+
+.course-horizontal {
+    width: 100%;
+}
+
+.course-vertical .courses-visual {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 245px;
+    padding-right: 40px;
+}
+
+.course-vertical .courses-des {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 40px;
+    padding-right: 40px;
+
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.course-horizontal .courses-visual {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 245px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+
+.course-horizontal .courses-des {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.course-horizontal-last {
+    padding-bottom: 40px;
+}
+
+.course-horizontal-last .duration {
+    text-align: middle;
+    padding-top: 65px;
+}
+
+.visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.courses-des {
+    font-family: "PT Sans";
+    font-weight: 400;
+    
+}
+
+.courses-des h3 {
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.courses-des a {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(../img/right-arrow.png);
+    width: 37px;
+    height: 27px;
+    margin-left: 240px;
+}
+
+.duration {
+    display: inline-block;
+    text-align: middle;
+    color: black;
+
+    font-family: futura, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.duration-horizontal {
+    padding-top: 60px;
+}
+
+.duration-vertical {
+    display: inline-block;
+    padding-top: 42px;
+}
+
+.courses-about {
+    text-align: center;
+    margin-bottom: 43px;
+
+    font-family: futura, sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+/*дальше*/
+
+.discounts {
+    text-align: center;
+    padding-bottom: 45px;
+    background-image: url(../img/backgroung-sale.png);
+    background-size: cover;
+    background-position: center bottom;
+    color: #fff;
+   
+}
+
+
+.text-discounts .another-color{
+    color: #74e196;
+}
+.text-discounts{ 
+
+ font-family: "Futura";
+ font-weight:normal;
+ font-size: 20px;
+line-height: 23px;
+
+}
+ 
+.discounts-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    padding-bottom: 40px;
+}
+
+.title-discounts {
+    padding-bottom: 20px;
+}
+
+.team {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 100px;
+    background-image: url(../img/bgr-team.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.team p {
+    vertical-align: bottom;
+    display: block;
+    width: 66.6%;
+    margin-top: 400px;
+    margin-left: 200px;
+    line-height: 22px;
+    font-size: 15px;
+}
+.maps {
+    text-align: center;
+}
+.maps p {
+    display: block;
+    vertical-align: bottom;
+    width: 66.6%;
+    margin-left: 200px;
+    padding-bottom: 45px;
+
+    line-height: 22px;
+    font-size: 15px;
+    
+}
+ 
+.title-maps{padding-top: 0;
+
+}
+
+.advantages {
+    text-align: center;
+}
+.advantages-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    padding-bottom: 70px;
+    padding-top: 27px;
+}
+.advantages-item p {
+    line-height: 22px;
+    font-size: 15px;
+   padding-top: 35px;
+}
+.advantages-item.image-guarantee {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 80px;
+
+    background-image: url(../img/like.png);
+    background-repeat: no-repeat;
+    background-position: top;
+   
+}
+.advantages-item.image-experience {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 80px;
+
+    background-image: url(../img/certificate.png);
+    background-repeat: no-repeat;
+    background-position: top;
+   
+}
+.advantages-item.image-calendar {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 80px;
+
+    background-image: url(../img/Today-100.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.advantages-item.image-safe {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+
+    background-image: url(../img/snowboard-helmet.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.advantages-item.image-transfer {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 90px;
+
+    background-image: url(../img/bus.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.advantages-item.image-inventory {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 104px;
+
+    background-image: url(../img/ski.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.text-advantages {
+    text-align: left;
+    padding-right: 40px;
+}
+.galery {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 92px;
+    padding-bottom: 90px;
+}
+a .galery-photo {
+    display: inline-block;
+    vertical-align: top;
+    width: 16.33%;
+    margin-left: 15px;
+}
+.galery-photo {
+    display: inline-block;
+    vertical-align: top;
+    width: 16.33%;
+    height: 180px;
+}
+
+/*страница инструкторы */
+form {
+    text-align: center;
+    position: relative;
+}
+.search input {
+    text-align: left;
+    width: 50%;
+    height: 45px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 30px;
+
+    border: 2px solid black;
+
+    font-family: futura, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+button {
+  position: absolute;
+  height: 27px;
+  width: 27px;
+  top: 10px;
+  right: 300px;
+  border: none;
+
+  background: url(../img/search.png); 
+  cursor: pointer;
+}
+
+
+.intructors-list {
+    width: 100%;
+    font-size: 0px;
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+.intructors-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: left;
+
+    font-size: 20px;
+    color: white;
+    font-family: futura, sans-serif;
+    font-weight: 500;
+
+}
+
+
+.intructors-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
+    transition: all .3s ease;
+}
+.intructors-item:hover:before {
+    background-color: rgba(0, 0, 0, 0);
+}
+.intructors-item:hover .intructors-name {
+    
+color: transparent;
+}
+.intructors-item img {
+    display: block;
+}
+.intructors-name {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    margin: 0;
+    transition: all .3s ease;
+}
+.intructors-item-active:before {
+    background-color: rgba(109, 231, 147, .4);
+}
+.intructors-item-active:hover:before {
+    background-color: rgba(109, 231, 147, .4);
+}
+.intructors-item-active .intructors-name {
+    color: transparent;
+}
+
+.intructors-item p {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: futura, sans-serif;
+    font-weight: 500;
+
+}
+
+
+.about {
+    margin: auto;
+    width: 90%;
+    
+}
+
+.row-about{
+    padding-bottom: 20px;
+}
+.avatar {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    height:270px;
+    width:270px;
+}
+.info-list {
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+    padding-left: 70px;
+}
+ .info-item-sport img {
+    margin-top: 20px;
+    margin-left: 8px; 
+    height: 71px;
+    width:31px;
+    text-align: center;
+
+ 
+}
+.info-item-sport {
+    display: inline-block;
+    vertical-align: top;
+    width: 16%;
+    
+    
+}
+
+.info-item-expiriense {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 60px;
+
+  }
+
+.info-item-style {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+  
+}
+  
+}
+
+ .info-text {
+    font-family: futura, sans-serif;
+    font-weight:500;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.info-text-expiriense{
+    font-size: 17px;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-family: futura, sans-serif;
+    font-weight:500;
+
+}
+
+.info-item-expiriense p {
+    padding-left: 35px;
+    padding-bottom: 20px;
+    font-family: futura, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.info-text h3 {
+    padding-top: 20px;
+    font-family: "Futura";
+    font-weight: 600;
+    
+
+}
+
+.action {
+ 
+    display: inline-block;
+    vertical-align: top;
+    width: 16%;
+    padding-left: 55px;
+}
+.like {
+    padding-left: 2px;
+
+}
+.button-action{
+    margin: 0;
+    margin-top: 6px;
+}
+
+.button-like {
+
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 15px 15px 32px;
+
+    border: 2px solid black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    
+    font-family: futura, sans-serif;
+    font-weight: 500;
+
+    background-image: url(../img/flash.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+   
+}
+
+.about-name {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+
+   padding-top: 20px;
+   font-family: futura, sans-serif;
+   font-weight:500;
+}
+.title-name {
+    padding-top: 0;
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 30px;
+
+    font-family: futura, sans-serif;
+    font-weight:500;
+}
+
+.education {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 50%;
+    padding-right: 43px;
+}
+
+.style-item {
+
+    font-family: futura, sans-serif;
+   font-weight:500;
+   font-size: 17px;  
+   
+}
+.style-item-first {
+padding-top: 20px;
+}
+
+.education h3,p {
+ 
+   padding-top: 20px;
+   
+}
+
+
+.about-visual {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+.review-text {
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.review {
+    background-image: url(../img/bgr-review.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.review h3 {
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+
+
+/*страница стоимость*/
+.table-cost {
+    width: 100%;
+    border-collapse: collapse;
+}
+.top-item {
+    font-family: futura, sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 70px;
+}
+.table-item {
+    padding-left: 15px;
+
+    border: 2px solid black;
+
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    
+}
+.button-table  {
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+   
+    font-family: futura, sans-serif;
+    font-weight: 700;
+    padding: 15px 20px;
+    text-transform: uppercase;
+
+    
+}
+
+.button-table a{
+    color: #74e196;
+    background-color: white;
+}
+
+.about-cost {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid black;
+    margin-top: 37px;
+}
+.avatar-cost {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-left: 60px;
+}
+
+.avatar-cost {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
+.avatar-cost img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border:3px solid #74e196;
+    border-radius:50%;
+}
+.avatar-cost p {
+    position: absolute;
+    padding-top: 3px;
+    width: 200px;
+    height: 49px;
+    top: 170px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.about-cost-text {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 53px;
+
+    font-family: "PT Sans";
+    font-weight: 400;
+}
+.about-cost-text h3 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.price-cost p {
+    padding-top: 55px;
+
+    font-family: "futura", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.button-buy {
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.know-more {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #74e196;
+    margin-bottom: 50px;
+
+    font-family: "PT Sans";
+    font-weight: 400;
+}
+.cost-text {
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+.cost-text-bold {
+    font-family: "futura", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.price-cost {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    padding-left: 120px;
+}
+.pagination {
+    margin-top: 15px;
+
+    font-family: "futura", sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+}
+
+
+.pagination .active {
+    color: #74e196;
+}
+
+.pagination .next {
+    color: #74e196;
+    background-image: url(../img/next.png);
+    height: 28px;
+    width: 14px;
+}
+
+.pagination .prev {
+    color: #74e196;
+    background-image: url(../img/prev.png);
+     height: 28px;
+    width: 14px;
+}
+
+
+
+
+.form-call input,
+textarea {
+    width: 100%;
+    display: block;
+    border: 3px solid black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.form-call h2{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.buttom-form {
+    margin-bottom: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.form-call label {
+    text-align: left;
+    display: block;
+
+    font-family: futura, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 70px;
+}
+.form-call {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.pagination {
+    text-align: center;
+}
+
+/*футер*/
+
+/*ряд 1*/
+footer {
+    padding-top: 60px;
+    padding-bottom: 95px;
+
+    background-image: url(../img/bgr-footer.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.social {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 180px;
+    width: 60%;
+}
+.social-youtybe {
+    display: inline-block;
+    text-align: center;
+    padding-right: 50px;
+    width: 32px;
+    height: 32px;
+
+    background-image: url(../img/youtube-logo.png);
+    background-repeat: no-repeat;
+  
+}
+.social-instagram {
+    display: inline-block;
+    text-align: center;
+    padding-right: 45px;
+    width: 32px;
+    height: 32px;
+
+    background-image: url(../img/instagram-logo.png);
+    background-repeat: no-repeat;
+    
+}
+.social-fb {
+    display: inline-block;
+    text-align: center;
+    padding-right: 45px;
+    width: 32px;
+    height: 32px;
+
+    background-image: url(../img/facebook-logo.png);
+    background-repeat: no-repeat;
+    
+}
+.social-vk {
+    display: inline-block;
+    text-align: center;
+    padding-right: 45px;
+    width: 32px;
+    height: 32px;
+
+    background-image: url(../img/vk.png);
+    background-repeat: no-repeat;
+    
+}
+.contact {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: 25%;
+}
+.logo-footer {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.phone-footer {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 70%;
+
+    font-family: futura, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.email-footer {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 50%;
+
+    font-family: futura, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*ряд 2*/
+.text-rights {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-top: 50px;
+    text-align: left;
+    width: 33.3%;
+    color: black;
+
+    font-family: futura, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.menu-footer {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-top: 50px;
+    text-align: right;
+    width: 66.3%;
+    font-size: 15px;
+  
+}
+.menu-item-footer {
+    padding-left: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 45px;
+
+}
+
+.menu-item-footer .active {
+    color:#444444;
+} 
+
+.menu-item-footer :hover {
+    color:#444444;
+} 
+
